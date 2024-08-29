@@ -3988,6 +3988,18 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="width" val="15"/>
     </comp>
+    <comp lib="0" loc="(220,480)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="15"/>
+    </comp>
+    <comp lib="0" loc="(220,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="15"/>
+    </comp>
     <comp lib="0" loc="(230,260)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="R"/>
@@ -4014,6 +4026,11 @@
       <a name="label" val="B"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="width" val="15"/>
+    </comp>
+    <comp lib="0" loc="(370,410)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="CIN"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(390,150)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -4074,9 +4091,15 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
+    <comp loc="(390,510)" name="ADDER15">
+      <a name="facing" val="east"/>
+    </comp>
     <wire from="(180,70)" to="(180,90)"/>
+    <wire from="(220,480)" to="(350,480)"/>
+    <wire from="(220,540)" to="(350,540)"/>
     <wire from="(230,260)" to="(230,270)"/>
     <wire from="(280,70)" to="(280,90)"/>
+    <wire from="(370,410)" to="(370,460)"/>
     <wire from="(390,150)" to="(410,150)"/>
     <wire from="(390,180)" to="(410,180)"/>
     <wire from="(390,210)" to="(410,210)"/>
@@ -4089,6 +4112,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="FLAGS8"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="120" x="60" y="50"/>
       <rect height="3" stroke="none" width="10" x="50" y="119"/>
@@ -4174,6 +4198,7 @@
     <a name="circuit" val="IMM15"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="clabelup" val="south"/>
+    <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="120" x="50" y="55"/>
       <text dominant-baseline="alphabetic" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="109" y="75">IMM15</text>
