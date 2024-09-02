@@ -10,7 +10,7 @@ ALU is implemented using the adder and working
 Registers store the values properly
 Immediate sign bit is generated correctly
 Decoder generaters all the output correctly
-
+For flags8 If a bit in WM is set to 1, the corresponding flag in the register will be updated with the value from NF
 ## Known Issues
 Cpu still needs works with I-type, B-type, S-type and U-type instructions.
 
